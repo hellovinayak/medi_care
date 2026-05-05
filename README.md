@@ -8,8 +8,6 @@ Patients book appointments through natural language; doctors get AI-generated re
 
 ## What Makes This a Real MCP Implementation
 
-The previous version had a Python class *named* `MCPServer` — but that was just a wrapper around a dictionary of functions with no protocol involved.
-
 This version implements the full **Model Context Protocol**:
 
 | Layer | File | Role |
